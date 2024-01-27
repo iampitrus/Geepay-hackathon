@@ -3,10 +3,22 @@
 @tailwind utilities;
 
 body {
-  background-color: #f7f8fa;
-  font-size: 16px;
+  @apply bg-slate-50 dark:bg-cyan-950;
 }
 p {
   margin: 0;
   padding: 0;
+}
+
+td {
+  @apply py-3 border-y border-gray-200;
+}
+* {
+  @apply dark:border-cyan-900;
+}
+h1,
+h2,
+h3,
+p {
+  @apply dark:text-white;
 }
