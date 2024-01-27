@@ -1,4 +1,4 @@
-import { CategoryScale, ScriptableContext, scales } from "chart.js";
+import { CategoryScale, ScriptableContext } from "chart.js";
 import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 
